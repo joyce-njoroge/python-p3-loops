@@ -14,12 +14,12 @@ def happy_new_year():
 
     assert countdown == '10\n9\n8\n7\n6\n5\n4\n3\n2\n1\nHappy New Year!', "Unexpected output"
     print(countdown)
-    pass
+    
 
 def square_integers(int_list):
     # code goes here!
     return [x ** 2 for x in int_list]
-    pass
+    
 
 def fizzbuzz():
     # code goes here!
@@ -32,4 +32,4 @@ def fizzbuzz():
             print("Buzz")
         else:
             print(num)
-    pass
+    
